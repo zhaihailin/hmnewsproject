@@ -5,6 +5,7 @@ import Vuex from 'vuex'
 import router from './router'
 import Vant from 'vant'
 import 'vant/lib/index.css'
+import 'amfe-flexible/index.js'
 Vue.use(Vant)
 //   使用vuex
 Vue.use(Vuex)

@@ -8,6 +8,8 @@
 <p>{{count}}--{{age}}</p>
 <!-- 使用组件 -->
 <Child></Child>
+
+  <div class="text"></div>
   </div>
 </template>
 
@@ -38,3 +40,10 @@ export default {
   }
 }
 </script>
+<style lang='less' scoped>
+.text {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+}
+</style>
